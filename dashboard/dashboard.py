@@ -5,7 +5,7 @@ import numpy
 import os
 
 # Load dataset
-pd.read_csv(os.path.join(os.path.dirname(__file__), "main-data.csv"))
+day_df = pd.read_csv(os.path.join(os.path.dirname(__file__), "main-data.csv"))
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
 # Sidebar Filters
