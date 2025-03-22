@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy
+import os
 
 # Load dataset
 pd.read_csv(os.path.join(os.path.dirname(__file__), "main-data.csv"))
